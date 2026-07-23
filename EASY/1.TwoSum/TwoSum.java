@@ -1,4 +1,4 @@
-// JULY-AUGUST PRACTICE
+// ============================ JULY-AUGUST PRACTICE ============================
 
 // RANK 1 : O(n)
 import java.util.HashMap;
@@ -17,17 +17,8 @@ class Solution {
     }
 }
 
-class TwoSum {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] nums = {2, 7, 11, 15};
-        int target = 9;
-        int[] result = solution.twoSum(nums, target);
-        System.out.println("Indices: " + result[0] + ", " + result[1]);
-    }
-}
 
-// RANK 2 : (O(n log n)):
+// RANK 2 : (O(n log n))
 // import java.util.Arrays;
 
 // class Solution {
@@ -76,3 +67,13 @@ class TwoSum {
 //     }
 // }
 
+//Driver code to test the Solution class
+class TwoSum {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+        int[] result = solution.twoSum(nums, target);
+        System.out.println("Indices: " + result[0] + ", " + result[1]);
+    }
+}
