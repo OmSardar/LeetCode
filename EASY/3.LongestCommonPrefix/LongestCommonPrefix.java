@@ -139,6 +139,7 @@ class Solution {
 //     }
 // }
 
+//Driver code to test the Solution class
 public class LongestCommonPrefix {
     public static void main(String[] args) {
         Solution solution = new Solution();
