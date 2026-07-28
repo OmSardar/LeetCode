@@ -50,6 +50,7 @@ class Solution {
 //     }
 // }
 
+//Driver code to test the Solution class
 public class RemoveDuplicates {
     public static void main(String[] args) {
         // Example input
