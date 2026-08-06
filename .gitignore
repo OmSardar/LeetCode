@@ -1,1 +1,16 @@
-.class
+# Compiled Java files
+*.class
+
+# VS Code
+.vscode/
+
+# Java Language Server
+.settings/
+.project
+.classpath
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
