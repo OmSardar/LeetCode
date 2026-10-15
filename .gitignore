@@ -3,6 +3,10 @@
 
 # VS Code
 .vscode/
+!1.EASY/17.SORTING/.vscode/
+!1.EASY/17.SORTING/.vscode/settings.json
+!1.EASY/17.SORTING/.vscode/run-current-java.ps1
+**/.java-build/
 
 # Java Language Server
 .settings/

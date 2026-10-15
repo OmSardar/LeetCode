@@ -1,0 +1,10 @@
+{
+  "java.debug.settings.onBuildFailureProceed": true,
+  "code-runner.executorMap": {
+    "java": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"$workspaceRoot\\.vscode\\run-current-java.ps1\" -SourceFile $fullFileName"
+  },
+  "code-runner.runInTerminal": false,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false
+}
